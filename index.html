@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Fintrad-Citadel</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <a href="">Fintrad Citadel</a>
+            </div>
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="https://ekomic.github.io/blog-section/">Blog</a></li>
+            </ul>
+            <div class="toggle" onclick="toggleMenu();"><i class="fas fa-bars"></i></div>
+        </header>
+        <div class="content">
+            <div class="article">
+                <h1>Explore<br><span>A New Way of Making Money!</span></h1>
+                <p>Leave the hassle of trading to us, we specializes 
+                    in making money for our clients and trainings available!</p>
+                    <div class="button">
+                        <a href="">Get Started</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/Fintrad-Citadel-103073342424828/"><i class="fab fa-facebook f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
